@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'QNVideoCloudDemo' do
+	pod 'QNRTCKit'
+	pod "PLMediaStreamingKit-ByteDance"
+	pod 'PLPlayerKit', '3.4.3'
+
+	pod 'Fabric', '1.7.2'
+	pod 'Crashlytics', '3.9.3'
+	pod 'Bugsnag', '5.15.4'
+	pod 'MMMaterialDesignSpinner'
+	pod 'BlocksKit', '2.2.5'
+	pod 'JGProgressHUD'
+	pod 'Masonry'
+
+end
