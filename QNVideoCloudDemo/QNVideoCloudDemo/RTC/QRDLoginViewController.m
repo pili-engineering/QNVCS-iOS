@@ -65,6 +65,11 @@ UITextFieldDelegate
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(95, QRD_LOGIN_TOP_SPACE + 192, QRD_SCREEN_WIDTH - 198, QRD_SCREEN_HEIGHT - QRD_LOGIN_TOP_SPACE - 340)];
     self.imageView.image = [UIImage imageNamed:@"qn_niu"];
     [self.view insertSubview:_imageView atIndex:0];
+    
+    UIButton* backButton = [[UIButton alloc] initWithFrame:CGRectMake(20, QRD_LOGIN_TOP_SPACE - 67, 26, 26)];
+    [backButton setImage:[UIImage imageNamed:@"set_back"] forState:UIControlStateNormal];
+    [backButton addTarget:self action:@selector(getBackAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backButton];
 }
 
 - (void)setupLoginViewWithStorage:(BOOL)storage {
@@ -108,11 +113,6 @@ UITextFieldDelegate
     [_setButton setImage:[UIImage imageNamed:@"setting"] forState:UIControlStateNormal];
     [_setButton addTarget:self action:@selector(settingAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_setButton];
-    
-    UIButton* backButton = [[UIButton alloc] initWithFrame:CGRectMake(20, QRD_LOGIN_TOP_SPACE - 67, 26, 26)];
-    [backButton setImage:[UIImage imageNamed:@"set_back"] forState:UIControlStateNormal];
-    [backButton addTarget:self action:@selector(getBackAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:backButton];
     
     self.imageView.frame = CGRectMake(95, QRD_LOGIN_TOP_SPACE + 242, QRD_SCREEN_WIDTH - 190, QRD_SCREEN_HEIGHT - QRD_LOGIN_TOP_SPACE - 340);
 }
