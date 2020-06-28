@@ -59,6 +59,7 @@
         return;
     }
     PushLiveViewController * pushLiveVC = [[PushLiveViewController alloc] initWithRoomName:self.createRoomTextField.text];
+    pushLiveVC.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:pushLiveVC animated:YES completion:nil];
 }
 - (IBAction)userClareAgreeAction:(id)sender {
@@ -66,6 +67,7 @@
 }
 - (IBAction)userDelegateAction:(id)sender {
     UserDelegateVC * userDelegateVC = [[UserDelegateVC alloc] init];
+    userDelegateVC.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:userDelegateVC animated:YES completion:^{
     }];
 }
