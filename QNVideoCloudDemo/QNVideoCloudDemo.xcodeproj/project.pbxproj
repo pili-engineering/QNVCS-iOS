@@ -122,24 +122,25 @@
 		41793CD0248E12A2002B4B42 /* LMJDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793C62248E129C002B4B42 /* LMJDropdownMenu.m */; };
 		41793CD2248E12A2002B4B42 /* UIScrollView+UITouchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793C67248E129F002B4B42 /* UIScrollView+UITouchEvent.m */; };
 		41793CD4248E12A2002B4B42 /* CreateRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41793C69248E12A1002B4B42 /* CreateRoomViewController.xib */; };
-		41793D01248F3CC2002B4B42 /* BEDeviceInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CDE248F3CC2002B4B42 /* BEDeviceInfoHelper.m */; };
-		41793D02248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CE0248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.m */; };
-		41793D03248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CE3248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.m */; };
-		41793D04248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CE5248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.m */; };
-		41793D05248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CE7248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.m */; };
-		41793D06248F3CC2002B4B42 /* BEButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CE8248F3CC2002B4B42 /* BEButtonView.m */; };
-		41793D07248F3CC2002B4B42 /* BEButtonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CEB248F3CC2002B4B42 /* BEButtonViewCell.m */; };
-		41793D08248F3CC2002B4B42 /* BEButtonItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CEE248F3CC2002B4B42 /* BEButtonItemModel.m */; };
-		41793D09248F3CC2002B4B42 /* BEEffectResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CEF248F3CC2002B4B42 /* BEEffectResponseModel.m */; };
-		41793D0A248F3CC2002B4B42 /* BEModernEffectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CF2248F3CC2002B4B42 /* BEModernEffectPickerView.m */; };
-		41793D0B248F3CC2002B4B42 /* BEEffectSwitchTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CF3248F3CC2002B4B42 /* BEEffectSwitchTabView.m */; };
-		41793D0C248F3CC2002B4B42 /* BECategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CF7248F3CC2002B4B42 /* BECategoryView.m */; };
-		41793D0D248F3CC2002B4B42 /* BEModernFilterPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CFA248F3CC2002B4B42 /* BEModernFilterPickerView.m */; };
-		41793D0E248F3CC2002B4B42 /* BEFaceBeautyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CFC248F3CC2002B4B42 /* BEFaceBeautyView.m */; };
-		41793D0F248F3CC2002B4B42 /* BEModernStickerPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CFE248F3CC2002B4B42 /* BEModernStickerPickerView.m */; };
-		41793D10248F3CC2002B4B42 /* BETextSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41793CFF248F3CC2002B4B42 /* BETextSliderView.m */; };
 		41793D1F248F3FF4002B4B42 /* BundleResource in Resources */ = {isa = PBXBuildFile; fileRef = 41793D1E248F3FF4002B4B42 /* BundleResource */; };
 		41793D21248F4010002B4B42 /* libeffect-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41793D20248F4010002B4B42 /* libeffect-sdk.a */; };
+		4184AD0724B31E22001049FD /* BEDeviceInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACE224B31E21001049FD /* BEDeviceInfoHelper.m */; };
+		4184AD0824B31E22001049FD /* BEModernStickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACE424B31E21001049FD /* BEModernStickerCollectionViewCell.m */; };
+		4184AD0924B31E22001049FD /* BEEffectTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACE724B31E21001049FD /* BEEffectTitleCollectionViewCell.m */; };
+		4184AD0A24B31E22001049FD /* BEEffectContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACE924B31E21001049FD /* BEEffectContentCollectionViewCell.m */; };
+		4184AD0B24B31E22001049FD /* BEModernFilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACEB24B31E21001049FD /* BEModernFilterCollectionViewCell.m */; };
+		4184AD0C24B31E22001049FD /* BEButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACEC24B31E21001049FD /* BEButtonView.m */; };
+		4184AD0D24B31E22001049FD /* BEButtonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACEF24B31E21001049FD /* BEButtonViewCell.m */; };
+		4184AD0E24B31E22001049FD /* BEButtonItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACF224B31E21001049FD /* BEButtonItemModel.m */; };
+		4184AD0F24B31E22001049FD /* BEEffectResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACF324B31E21001049FD /* BEEffectResponseModel.m */; };
+		4184AD1024B31E22001049FD /* BEModernEffectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACF624B31E21001049FD /* BEModernEffectPickerView.m */; };
+		4184AD1124B31E22001049FD /* PLSTBaseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACF724B31E21001049FD /* PLSTBaseListView.m */; };
+		4184AD1224B31E22001049FD /* BEEffectSwitchTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACF824B31E21001049FD /* BEEffectSwitchTabView.m */; };
+		4184AD1324B31E22001049FD /* BECategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184ACFC24B31E21001049FD /* BECategoryView.m */; };
+		4184AD1424B31E22001049FD /* BEModernFilterPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184AD0024B31E21001049FD /* BEModernFilterPickerView.m */; };
+		4184AD1524B31E22001049FD /* BEFaceBeautyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184AD0224B31E21001049FD /* BEFaceBeautyView.m */; };
+		4184AD1624B31E22001049FD /* BEModernStickerPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184AD0424B31E21001049FD /* BEModernStickerPickerView.m */; };
+		4184AD1724B31E22001049FD /* BETextSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4184AD0524B31E21001049FD /* BETextSliderView.m */; };
 		425BAB67802B7D4DEB37FB93 /* libPods-QNVideoCloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6AD9DB5051AF00C51E2121 /* libPods-QNVideoCloudDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -293,41 +294,43 @@
 		41793C67248E129F002B4B42 /* UIScrollView+UITouchEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouchEvent.m"; sourceTree = "<group>"; };
 		41793C69248E12A1002B4B42 /* CreateRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateRoomViewController.xib; sourceTree = "<group>"; };
 		41793C6A248E12A2002B4B42 /* UIScrollView+UITouchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouchEvent.h"; sourceTree = "<group>"; };
-		41793CDE248F3CC2002B4B42 /* BEDeviceInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEDeviceInfoHelper.m; sourceTree = "<group>"; };
-		41793CE0248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernStickerCollectionViewCell.m; sourceTree = "<group>"; };
-		41793CE1248F3CC2002B4B42 /* BEButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonView.h; sourceTree = "<group>"; };
-		41793CE2248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernFilterCollectionViewCell.h; sourceTree = "<group>"; };
-		41793CE3248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectTitleCollectionViewCell.m; sourceTree = "<group>"; };
-		41793CE4248F3CC2002B4B42 /* BEButtonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonViewCell.h; sourceTree = "<group>"; };
-		41793CE5248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectContentCollectionViewCell.m; sourceTree = "<group>"; };
-		41793CE6248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectTitleCollectionViewCell.h; sourceTree = "<group>"; };
-		41793CE7248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernFilterCollectionViewCell.m; sourceTree = "<group>"; };
-		41793CE8248F3CC2002B4B42 /* BEButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonView.m; sourceTree = "<group>"; };
-		41793CE9248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernStickerCollectionViewCell.h; sourceTree = "<group>"; };
-		41793CEA248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectContentCollectionViewCell.h; sourceTree = "<group>"; };
-		41793CEB248F3CC2002B4B42 /* BEButtonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonViewCell.m; sourceTree = "<group>"; };
-		41793CED248F3CC2002B4B42 /* BEEffectResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectResponseModel.h; sourceTree = "<group>"; };
-		41793CEE248F3CC2002B4B42 /* BEButtonItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonItemModel.m; sourceTree = "<group>"; };
-		41793CEF248F3CC2002B4B42 /* BEEffectResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectResponseModel.m; sourceTree = "<group>"; };
-		41793CF0248F3CC2002B4B42 /* BEButtonItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonItemModel.h; sourceTree = "<group>"; };
-		41793CF2248F3CC2002B4B42 /* BEModernEffectPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernEffectPickerView.m; sourceTree = "<group>"; };
-		41793CF3248F3CC2002B4B42 /* BEEffectSwitchTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectSwitchTabView.m; sourceTree = "<group>"; };
-		41793CF4248F3CC2002B4B42 /* BEModernFilterPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernFilterPickerView.h; sourceTree = "<group>"; };
-		41793CF5248F3CC2002B4B42 /* BETextSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETextSliderView.h; sourceTree = "<group>"; };
-		41793CF6248F3CC2002B4B42 /* BEModernStickerPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernStickerPickerView.h; sourceTree = "<group>"; };
-		41793CF7248F3CC2002B4B42 /* BECategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BECategoryView.m; sourceTree = "<group>"; };
-		41793CF8248F3CC2002B4B42 /* BEFaceBeautyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEFaceBeautyView.h; sourceTree = "<group>"; };
-		41793CF9248F3CC2002B4B42 /* BEModernEffectPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernEffectPickerView.h; sourceTree = "<group>"; };
-		41793CFA248F3CC2002B4B42 /* BEModernFilterPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernFilterPickerView.m; sourceTree = "<group>"; };
-		41793CFB248F3CC2002B4B42 /* BEEffectSwitchTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectSwitchTabView.h; sourceTree = "<group>"; };
-		41793CFC248F3CC2002B4B42 /* BEFaceBeautyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEFaceBeautyView.m; sourceTree = "<group>"; };
-		41793CFD248F3CC2002B4B42 /* BECategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECategoryView.h; sourceTree = "<group>"; };
-		41793CFE248F3CC2002B4B42 /* BEModernStickerPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernStickerPickerView.m; sourceTree = "<group>"; };
-		41793CFF248F3CC2002B4B42 /* BETextSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BETextSliderView.m; sourceTree = "<group>"; };
-		41793D00248F3CC2002B4B42 /* BEDeviceInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEDeviceInfoHelper.h; sourceTree = "<group>"; };
 		41793D1E248F3FF4002B4B42 /* BundleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BundleResource; sourceTree = "<group>"; };
 		41793D20248F4010002B4B42 /* libeffect-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libeffect-sdk.a"; path = "QNVideoCloudDemo/SupportFile/libeffect-sdk.a"; sourceTree = "<group>"; };
 		41793D28248F77B4002B4B42 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4184ACE224B31E21001049FD /* BEDeviceInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEDeviceInfoHelper.m; sourceTree = "<group>"; };
+		4184ACE424B31E21001049FD /* BEModernStickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernStickerCollectionViewCell.m; sourceTree = "<group>"; };
+		4184ACE524B31E21001049FD /* BEButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonView.h; sourceTree = "<group>"; };
+		4184ACE624B31E21001049FD /* BEModernFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernFilterCollectionViewCell.h; sourceTree = "<group>"; };
+		4184ACE724B31E21001049FD /* BEEffectTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		4184ACE824B31E21001049FD /* BEButtonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonViewCell.h; sourceTree = "<group>"; };
+		4184ACE924B31E21001049FD /* BEEffectContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectContentCollectionViewCell.m; sourceTree = "<group>"; };
+		4184ACEA24B31E21001049FD /* BEEffectTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		4184ACEB24B31E21001049FD /* BEModernFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernFilterCollectionViewCell.m; sourceTree = "<group>"; };
+		4184ACEC24B31E21001049FD /* BEButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonView.m; sourceTree = "<group>"; };
+		4184ACED24B31E21001049FD /* BEModernStickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernStickerCollectionViewCell.h; sourceTree = "<group>"; };
+		4184ACEE24B31E21001049FD /* BEEffectContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectContentCollectionViewCell.h; sourceTree = "<group>"; };
+		4184ACEF24B31E21001049FD /* BEButtonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonViewCell.m; sourceTree = "<group>"; };
+		4184ACF124B31E21001049FD /* BEEffectResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectResponseModel.h; sourceTree = "<group>"; };
+		4184ACF224B31E21001049FD /* BEButtonItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEButtonItemModel.m; sourceTree = "<group>"; };
+		4184ACF324B31E21001049FD /* BEEffectResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectResponseModel.m; sourceTree = "<group>"; };
+		4184ACF424B31E21001049FD /* BEButtonItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEButtonItemModel.h; sourceTree = "<group>"; };
+		4184ACF624B31E21001049FD /* BEModernEffectPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernEffectPickerView.m; sourceTree = "<group>"; };
+		4184ACF724B31E21001049FD /* PLSTBaseListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSTBaseListView.m; sourceTree = "<group>"; };
+		4184ACF824B31E21001049FD /* BEEffectSwitchTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEEffectSwitchTabView.m; sourceTree = "<group>"; };
+		4184ACF924B31E21001049FD /* BEModernFilterPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernFilterPickerView.h; sourceTree = "<group>"; };
+		4184ACFA24B31E21001049FD /* BETextSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETextSliderView.h; sourceTree = "<group>"; };
+		4184ACFB24B31E21001049FD /* BEModernStickerPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernStickerPickerView.h; sourceTree = "<group>"; };
+		4184ACFC24B31E21001049FD /* BECategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BECategoryView.m; sourceTree = "<group>"; };
+		4184ACFD24B31E21001049FD /* BEFaceBeautyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEFaceBeautyView.h; sourceTree = "<group>"; };
+		4184ACFE24B31E21001049FD /* BEModernEffectPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModernEffectPickerView.h; sourceTree = "<group>"; };
+		4184ACFF24B31E21001049FD /* PLSTBaseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSTBaseListView.h; sourceTree = "<group>"; };
+		4184AD0024B31E21001049FD /* BEModernFilterPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernFilterPickerView.m; sourceTree = "<group>"; };
+		4184AD0124B31E21001049FD /* BEEffectSwitchTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEEffectSwitchTabView.h; sourceTree = "<group>"; };
+		4184AD0224B31E21001049FD /* BEFaceBeautyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEFaceBeautyView.m; sourceTree = "<group>"; };
+		4184AD0324B31E21001049FD /* BECategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECategoryView.h; sourceTree = "<group>"; };
+		4184AD0424B31E21001049FD /* BEModernStickerPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModernStickerPickerView.m; sourceTree = "<group>"; };
+		4184AD0524B31E21001049FD /* BETextSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BETextSliderView.m; sourceTree = "<group>"; };
+		4184AD0624B31E21001049FD /* BEDeviceInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEDeviceInfoHelper.h; sourceTree = "<group>"; };
 		6B6AD9DB5051AF00C51E2121 /* libPods-QNVideoCloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QNVideoCloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A090E456D12803625EBB12 /* Pods-QNVideoCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNVideoCloudDemo.release.xcconfig"; path = "Target Support Files/Pods-QNVideoCloudDemo/Pods-QNVideoCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB012948406BE7B8806E3BC5 /* Pods-QNVideoCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNVideoCloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-QNVideoCloudDemo/Pods-QNVideoCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -367,7 +370,7 @@
 		41793AE0248DD14E002B4B42 /* QNVideoCloudDemo */ = {
 			isa = PBXGroup;
 			children = (
-				41793CDD248F3CC2002B4B42 /* Effect */,
+				4184ACE124B31E21001049FD /* Effect */,
 				41793AFC248DD245002B4B42 /* Living */,
 				41793AFB248DD235002B4B42 /* Main */,
 				41793AFE248DD256002B4B42 /* Player */,
@@ -610,65 +613,67 @@
 			path = LMJDropdownMenu;
 			sourceTree = "<group>";
 		};
-		41793CDD248F3CC2002B4B42 /* Effect */ = {
+		4184ACE124B31E21001049FD /* Effect */ = {
 			isa = PBXGroup;
 			children = (
-				41793D00248F3CC2002B4B42 /* BEDeviceInfoHelper.h */,
-				41793CDE248F3CC2002B4B42 /* BEDeviceInfoHelper.m */,
-				41793CDF248F3CC2002B4B42 /* cell */,
-				41793CEC248F3CC2002B4B42 /* model */,
-				41793CF1248F3CC2002B4B42 /* view */,
+				4184AD0624B31E21001049FD /* BEDeviceInfoHelper.h */,
+				4184ACE224B31E21001049FD /* BEDeviceInfoHelper.m */,
+				4184ACE324B31E21001049FD /* cell */,
+				4184ACF024B31E21001049FD /* model */,
+				4184ACF524B31E21001049FD /* view */,
 			);
 			path = Effect;
 			sourceTree = "<group>";
 		};
-		41793CDF248F3CC2002B4B42 /* cell */ = {
+		4184ACE324B31E21001049FD /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				41793CE1248F3CC2002B4B42 /* BEButtonView.h */,
-				41793CE8248F3CC2002B4B42 /* BEButtonView.m */,
-				41793CE4248F3CC2002B4B42 /* BEButtonViewCell.h */,
-				41793CEB248F3CC2002B4B42 /* BEButtonViewCell.m */,
-				41793CEA248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.h */,
-				41793CE5248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.m */,
-				41793CE6248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.h */,
-				41793CE3248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.m */,
-				41793CE2248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.h */,
-				41793CE7248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.m */,
-				41793CE9248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.h */,
-				41793CE0248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.m */,
+				4184ACE524B31E21001049FD /* BEButtonView.h */,
+				4184ACEC24B31E21001049FD /* BEButtonView.m */,
+				4184ACE824B31E21001049FD /* BEButtonViewCell.h */,
+				4184ACEF24B31E21001049FD /* BEButtonViewCell.m */,
+				4184ACEE24B31E21001049FD /* BEEffectContentCollectionViewCell.h */,
+				4184ACE924B31E21001049FD /* BEEffectContentCollectionViewCell.m */,
+				4184ACEA24B31E21001049FD /* BEEffectTitleCollectionViewCell.h */,
+				4184ACE724B31E21001049FD /* BEEffectTitleCollectionViewCell.m */,
+				4184ACE624B31E21001049FD /* BEModernFilterCollectionViewCell.h */,
+				4184ACEB24B31E21001049FD /* BEModernFilterCollectionViewCell.m */,
+				4184ACED24B31E21001049FD /* BEModernStickerCollectionViewCell.h */,
+				4184ACE424B31E21001049FD /* BEModernStickerCollectionViewCell.m */,
 			);
 			path = cell;
 			sourceTree = "<group>";
 		};
-		41793CEC248F3CC2002B4B42 /* model */ = {
+		4184ACF024B31E21001049FD /* model */ = {
 			isa = PBXGroup;
 			children = (
-				41793CF0248F3CC2002B4B42 /* BEButtonItemModel.h */,
-				41793CEE248F3CC2002B4B42 /* BEButtonItemModel.m */,
-				41793CED248F3CC2002B4B42 /* BEEffectResponseModel.h */,
-				41793CEF248F3CC2002B4B42 /* BEEffectResponseModel.m */,
+				4184ACF424B31E21001049FD /* BEButtonItemModel.h */,
+				4184ACF224B31E21001049FD /* BEButtonItemModel.m */,
+				4184ACF124B31E21001049FD /* BEEffectResponseModel.h */,
+				4184ACF324B31E21001049FD /* BEEffectResponseModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
 		};
-		41793CF1248F3CC2002B4B42 /* view */ = {
+		4184ACF524B31E21001049FD /* view */ = {
 			isa = PBXGroup;
 			children = (
-				41793CFD248F3CC2002B4B42 /* BECategoryView.h */,
-				41793CF7248F3CC2002B4B42 /* BECategoryView.m */,
-				41793CFB248F3CC2002B4B42 /* BEEffectSwitchTabView.h */,
-				41793CF3248F3CC2002B4B42 /* BEEffectSwitchTabView.m */,
-				41793CF8248F3CC2002B4B42 /* BEFaceBeautyView.h */,
-				41793CFC248F3CC2002B4B42 /* BEFaceBeautyView.m */,
-				41793CF9248F3CC2002B4B42 /* BEModernEffectPickerView.h */,
-				41793CF2248F3CC2002B4B42 /* BEModernEffectPickerView.m */,
-				41793CF4248F3CC2002B4B42 /* BEModernFilterPickerView.h */,
-				41793CFA248F3CC2002B4B42 /* BEModernFilterPickerView.m */,
-				41793CF6248F3CC2002B4B42 /* BEModernStickerPickerView.h */,
-				41793CFE248F3CC2002B4B42 /* BEModernStickerPickerView.m */,
-				41793CF5248F3CC2002B4B42 /* BETextSliderView.h */,
-				41793CFF248F3CC2002B4B42 /* BETextSliderView.m */,
+				4184AD0324B31E21001049FD /* BECategoryView.h */,
+				4184ACFC24B31E21001049FD /* BECategoryView.m */,
+				4184AD0124B31E21001049FD /* BEEffectSwitchTabView.h */,
+				4184ACF824B31E21001049FD /* BEEffectSwitchTabView.m */,
+				4184ACFD24B31E21001049FD /* BEFaceBeautyView.h */,
+				4184AD0224B31E21001049FD /* BEFaceBeautyView.m */,
+				4184ACFE24B31E21001049FD /* BEModernEffectPickerView.h */,
+				4184ACF624B31E21001049FD /* BEModernEffectPickerView.m */,
+				4184ACF924B31E21001049FD /* BEModernFilterPickerView.h */,
+				4184AD0024B31E21001049FD /* BEModernFilterPickerView.m */,
+				4184ACFB24B31E21001049FD /* BEModernStickerPickerView.h */,
+				4184AD0424B31E21001049FD /* BEModernStickerPickerView.m */,
+				4184ACFA24B31E21001049FD /* BETextSliderView.h */,
+				4184AD0524B31E21001049FD /* BETextSliderView.m */,
+				4184ACFF24B31E21001049FD /* PLSTBaseListView.h */,
+				4184ACF724B31E21001049FD /* PLSTBaseListView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -887,51 +892,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				41793BE3248E0DA9002B4B42 /* QRDUserNameView.m in Sources */,
-				41793D06248F3CC2002B4B42 /* BEButtonView.m in Sources */,
+				4184AD0C24B31E22001049FD /* BEButtonView.m in Sources */,
 				41793BEC248E0DA9002B4B42 /* QRDAgreementViewController.m in Sources */,
 				41793C76248E12A2002B4B42 /* GoingRoomViewController.m in Sources */,
 				41793BF0248E0DA9002B4B42 /* QRDScreenMainViewController.m in Sources */,
 				41793BEB248E0DA9002B4B42 /* QRDUserView.m in Sources */,
 				41793B22248DD2E3002B4B42 /* QNVCListViewController.m in Sources */,
-				41793D01248F3CC2002B4B42 /* BEDeviceInfoHelper.m in Sources */,
+				4184AD0724B31E22001049FD /* BEDeviceInfoHelper.m in Sources */,
+				4184AD1724B31E22001049FD /* BETextSliderView.m in Sources */,
 				41793C72248E12A2002B4B42 /* SettingViewController.m in Sources */,
-				41793D08248F3CC2002B4B42 /* BEButtonItemModel.m in Sources */,
+				4184AD0E24B31E22001049FD /* BEButtonItemModel.m in Sources */,
+				4184AD1224B31E22001049FD /* BEEffectSwitchTabView.m in Sources */,
 				41793BF1248E0DA9002B4B42 /* QRDPlayerViewController.m in Sources */,
 				41793B18248DD2E3002B4B42 /* QNVCListCell.m in Sources */,
-				41793D0B248F3CC2002B4B42 /* BEEffectSwitchTabView.m in Sources */,
 				41793BE6248E0DA9002B4B42 /* UIView+Alert.m in Sources */,
 				41793BE1248E0DA9002B4B42 /* QRDMergeSettingView.m in Sources */,
-				41793D09248F3CC2002B4B42 /* BEEffectResponseModel.m in Sources */,
-				41793D0A248F3CC2002B4B42 /* BEModernEffectPickerView.m in Sources */,
-				41793D04248F3CC2002B4B42 /* BEEffectContentCollectionViewCell.m in Sources */,
+				4184AD0F24B31E22001049FD /* BEEffectResponseModel.m in Sources */,
+				4184AD1624B31E22001049FD /* BEModernStickerPickerView.m in Sources */,
+				4184AD1024B31E22001049FD /* BEModernEffectPickerView.m in Sources */,
+				4184AD0A24B31E22001049FD /* BEEffectContentCollectionViewCell.m in Sources */,
+				4184AD1424B31E22001049FD /* BEModernFilterPickerView.m in Sources */,
 				41793BE2248E0DA9002B4B42 /* QRDMergeInfo.m in Sources */,
 				41793BDA248E0DA9002B4B42 /* QRDMicrophoneSource.m in Sources */,
-				41793D0E248F3CC2002B4B42 /* BEFaceBeautyView.m in Sources */,
-				41793D02248F3CC2002B4B42 /* BEModernStickerCollectionViewCell.m in Sources */,
+				4184AD0824B31E22001049FD /* BEModernStickerCollectionViewCell.m in Sources */,
 				41793CD2248E12A2002B4B42 /* UIScrollView+UITouchEvent.m in Sources */,
-				41793D10248F3CC2002B4B42 /* BETextSliderView.m in Sources */,
-				41793D0D248F3CC2002B4B42 /* BEModernFilterPickerView.m in Sources */,
 				41793BE4248E0DA9002B4B42 /* QRDSettingView.m in Sources */,
 				41793C6D248E12A2002B4B42 /* PushLiveViewController.m in Sources */,
+				4184AD1324B31E22001049FD /* BECategoryView.m in Sources */,
 				41793C71248E12A2002B4B42 /* PLPlayerViewController.m in Sources */,
 				41793B1C248DD2E3002B4B42 /* QNVCListModel.m in Sources */,
 				41793B1A248DD2E3002B4B42 /* AppDelegate.mm in Sources */,
 				41793BE8248E0DA9002B4B42 /* QRDSettingViewController.m in Sources */,
-				41793D03248F3CC2002B4B42 /* BEEffectTitleCollectionViewCell.m in Sources */,
+				4184AD0924B31E22001049FD /* BEEffectTitleCollectionViewCell.m in Sources */,
 				41793C6C248E12A2002B4B42 /* CreateRoomViewController.m in Sources */,
 				41793BDC248E0DA9002B4B42 /* QRDBaseViewController.m in Sources */,
 				41793CCD248E12A2002B4B42 /* HomeViewController.m in Sources */,
 				41793BEE248E0DA9002B4B42 /* QRDNetworkUtil.m in Sources */,
 				41793BE9248E0DA9002B4B42 /* QRDScreenRecorderViewController.m in Sources */,
 				41793BEF248E0DA9002B4B42 /* QRDPureAudioViewController.m in Sources */,
-				41793D0C248F3CC2002B4B42 /* BECategoryView.m in Sources */,
 				41793BDD248E0DA9002B4B42 /* QRDRTCViewController.m in Sources */,
-				41793D0F248F3CC2002B4B42 /* BEModernStickerPickerView.m in Sources */,
-				41793D05248F3CC2002B4B42 /* BEModernFilterCollectionViewCell.m in Sources */,
+				4184AD0B24B31E22001049FD /* BEModernFilterCollectionViewCell.m in Sources */,
+				4184AD1124B31E22001049FD /* PLSTBaseListView.m in Sources */,
+				4184AD1524B31E22001049FD /* BEFaceBeautyView.m in Sources */,
 				41793C75248E12A2002B4B42 /* UserDelegateVC.m in Sources */,
 				41793BED248E0DA9002B4B42 /* QRDLoginViewController.m in Sources */,
 				41793BDE248E0DA9002B4B42 /* QRDJoinRoomView.m in Sources */,
-				41793D07248F3CC2002B4B42 /* BEButtonViewCell.m in Sources */,
+				4184AD0D24B31E22001049FD /* BEButtonViewCell.m in Sources */,
 				41793CD0248E12A2002B4B42 /* LMJDropdownMenu.m in Sources */,
 				41793AF4248DD151002B4B42 /* main.m in Sources */,
 			);
@@ -1074,6 +1080,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = GDFHW66V92;
 				INFOPLIST_FILE = QNVideoCloudDemo/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1098,6 +1105,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = GDFHW66V92;
 				INFOPLIST_FILE = QNVideoCloudDemo/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

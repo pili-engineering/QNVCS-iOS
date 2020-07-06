@@ -33,7 +33,7 @@
 }
 
 #pragma mark - public
-- (void)setType:(PLSMakeUpType)type data:(BEButtonItemModel *)data {
+- (void)setType:(PLSMakeUpComponentType)type data:(BEButtonItemModel *)data {
     self.type = type;
     self.data = data;
     _selectItem = data.selectedIndex;

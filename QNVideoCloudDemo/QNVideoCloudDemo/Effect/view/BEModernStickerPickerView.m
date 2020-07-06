@@ -11,22 +11,36 @@
 @property (nonatomic, strong) UICollectionView* collectionView;
 @property (nonatomic, copy) NSArray<PLSEffectModel *> *stickers;
 @property (nonatomic, weak) NSIndexPath* currentSelectedCellIndexPath;
+@property(nonatomic, strong) UIView* containerView;
 
 @end
 
 @implementation BEModernStickerPickerView
 
+- (UIView *)contentView {
+    return self.containerView;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     
     if(self){
-        [self addSubview:self.collectionView];
+        self.containerView = [[UIView alloc] initWithFrame:self.bounds];
+        self.backgroundColor = UIColor.clearColor;
+        [self addSubview:self.containerView];
+        [self.containerView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.height.mas_equalTo(220);
+            make.left.bottom.right.equalTo(self);
+        }];
+        
+        [self.containerView addSubview:self.collectionView];
         
         [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self);
-            make.bottom.mas_equalTo(self).with.offset(5);
-            make.leading.trailing.equalTo(self);
+            make.top.equalTo(self.containerView);
+            make.bottom.mas_equalTo(self.containerView).with.offset(5);
+            make.leading.trailing.equalTo(self.containerView);
         }];
+        self.collectionView.backgroundColor = [UIColor.blackColor colorWithAlphaComponent:0.8];
     }
     return self;
 }

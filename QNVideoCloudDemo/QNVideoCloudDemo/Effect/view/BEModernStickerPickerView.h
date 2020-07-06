@@ -2,6 +2,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PLSTBaseListView.h"
+
 @class PLSEffectModel, BEModernStickerPickerView;
 @protocol BEModernStickerPickerViewDelegate <NSObject>
 
@@ -9,7 +11,7 @@
 
 @end
 
-@interface BEModernStickerPickerView : UIView
+@interface BEModernStickerPickerView : PLSTBaseListView
 
 @property (nonatomic, weak) id<BEModernStickerPickerViewDelegate> delegate;
 @property (nonatomic, weak) PLSEffectModel *selectedSticker;

@@ -161,7 +161,6 @@ UITextFieldDelegate
     if (!_stickerListView) {
         CGRect frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 200);
         _stickerListView = [[BEModernStickerPickerView alloc] initWithFrame:frame];
-        _stickerListView.layer.backgroundColor = [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:0.8].CGColor;
         _stickerListView.delegate = self;
         PLSEffectModel *clear = [[PLSEffectModel alloc] init];
         clear.displayName = @"无";
@@ -181,81 +180,11 @@ UITextFieldDelegate
 }
 
 - (void)effectButtonDidClick:(UIButton *)sender {
-    sender.selected = !sender.selected;
-    if (sender.selected) {
-        [self showEffectView];
-    } else {
-        [self hideEffectView];
-    }
+    [_effectListView showInView:self.view];
 }
 
 - (void)stickerButtonDidClick:(UIButton *)sender {
-    sender.selected = !sender.selected;
-    if (sender.selected) {
-        [self showStickerView];
-    } else {
-        [self hideStickerView];
-    }
-}
-
-- (void)showEffectView {
-    if (self.stickerButton.selected) {
-        self.stickerButton.selected = NO;
-        [self.stickerButton setBackgroundColor:QRD_COLOR_RGBA(0,0,0,0.3)];
-        [self.stickerListView removeFromSuperview];
-    }
-    [self.view insertSubview:self.effectListView aboveSubview:self.view.subviews.lastObject];
-    [self.effectButton setBackgroundColor:[UIColor whiteColor]];
-    [UIView animateWithDuration:0.25 animations:^{
-        self.effectListView.frame = CGRectMake(0, self.view.frame.size.height - 200, self.view.frame.size.width, 200);
-    } completion:nil];
-}
-
-- (void)hideEffectView {
-    self.effectButton.selected = NO;
-    [self.effectButton setBackgroundColor:QRD_COLOR_RGBA(0,0,0,0.3)];
-    [UIView animateWithDuration:0.25 animations:^{
-        self.effectListView.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 200);
-    } completion:^(BOOL finished) {
-        [self.effectListView removeFromSuperview];
-    }];
-}
-
-- (void)showStickerView {
-    if (self.effectButton.selected) {
-        self.effectButton.selected = NO;
-        [self.effectButton setBackgroundColor:QRD_COLOR_RGBA(0,0,0,0.3)];
-        [self.effectListView removeFromSuperview];
-    }
-    [self.view addSubview:self.stickerListView];
-    [self.stickerButton setBackgroundColor:[UIColor whiteColor]];
-    [UIView animateWithDuration:0.25 animations:^{
-        self.stickerListView.frame = CGRectMake(0, self.view.frame.size.height - 220, self.view.frame.size.width, 220);
-    } completion:nil];
-}
-
-- (void)hideStickerView {
-    self.stickerButton.selected = NO;
-    [self.stickerButton setBackgroundColor:QRD_COLOR_RGBA(0,0,0,0.3)];
-    [UIView animateWithDuration:0.25 animations:^{
-        self.stickerListView.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 220);
-    } completion:^(BOOL finished) {
-        [self.stickerListView removeFromSuperview];
-    }];
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        for (UITouch * touch in touches) {
-            if (![touch.view isEqual:self.effectListView] &&
-                ![touch.view isEqual:self.stickerListView] &&
-                ![touch.view.class isEqual:[BETextSliderView class]]) {
-                [self hideEffectView];
-                [self hideStickerView];
-            }
-        }
-        
-    });
+    [_stickerListView showInView:self.view];
 }
 
 #pragma mark - effect picker delegate

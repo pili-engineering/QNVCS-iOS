@@ -69,6 +69,9 @@
     [super didMoveToSuperview];
     
     [self displayContentView:self.beautyView];
+    
+//    self.layer.borderWidth = 2;
+//    self.layer.borderColor = UIColor.whiteColor.CGColor;
 }
 
 #pragma mark - getter

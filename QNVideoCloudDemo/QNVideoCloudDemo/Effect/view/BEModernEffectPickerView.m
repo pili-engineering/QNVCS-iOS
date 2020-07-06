@@ -12,9 +12,9 @@
 
 NSInteger TYPE_NO_SELECT = -2;
 
-@interface BEModernEffectPickerView ()
-<UICollectionViewDelegate,
+@interface BEModernEffectPickerView ()<
 UICollectionViewDataSource,
+UICollectionViewDelegateFlowLayout,
 BEEffectSwitchTabViewDelegate,
 UIGestureRecognizerDelegate,
 TextSliderViewDelegate,
@@ -40,6 +40,8 @@ BEModernFilterPickerViewDelegate>
 @property (nonatomic, strong) PLSEffectModel *selectedFilter;
 @property (nonatomic, strong) BEButtonItemModel *backItem;
 
+@property(nonatomic, strong) UIView* containerView;
+
 @end
 
 @implementation BEModernEffectPickerView
@@ -49,30 +51,41 @@ BEModernFilterPickerViewDelegate>
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
+- (UIView *)contentView {
+    return self.containerView;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.containerView = [[UIView alloc] init];
+        [self addSubview:self.containerView];
+        [self.containerView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.bottom.right.equalTo(self);
+            make.height.mas_equalTo(200);
+        }];
+        
         self.backgroundColor = [UIColor clearColor];
         
-        [self addSubview:self.vBackground];
+        [self.containerView addSubview:self.vBackground];
         self.categoryView.contentView = self.contentCollectionView;
-        [self addSubview:self.categoryView];
-        [self addSubview:self.textSlider];
+        [self.containerView addSubview:self.categoryView];
+        [self.containerView addSubview:self.textSlider];
         
-        [self addSubview:self.lTitle];
-        [self addSubview:self.btnBack];
+        [self.containerView addSubview:self.lTitle];
+        [self.containerView addSubview:self.btnBack];
         
         [self.vBackground mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.bottom.right.equalTo(self);
+            make.left.bottom.right.equalTo(self.containerView);
             make.top.equalTo(self.textSlider.mas_bottom).with.offset(5);
         }];
         [self.textSlider mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.mas_top).with.offset(-20);
+            make.top.equalTo(self.containerView.mas_top).with.offset(-20);
 //            make.bottom.equalTo(self.vBackground.mas_top).with.offset(-10);
-            make.left.mas_equalTo(self.mas_left).mas_offset(20);
+            make.left.mas_equalTo(self.containerView.mas_left).mas_offset(20);
             make.height.mas_equalTo(60);
-            make.width.mas_equalTo(self.bounds.size.width * 0.7);
+            make.width.mas_equalTo(self.containerView.bounds.size.width * 0.7);
         }];
         
         [self.categoryView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -285,7 +298,7 @@ BEModernFilterPickerViewDelegate>
         
         // 染发 key 为空，故跳过获取 key 判断
         if (item.type != PLSMakeUpTypeHair) {
-            model.internalKey.length > 0 ? model.internalKey : model.path;
+            key = model.internalKey.length > 0 ? model.internalKey : model.path;
         }
        
         NSMutableDictionary *map = _mapArr[_categoryView.switchTabView.selectedIndex];
@@ -296,7 +309,7 @@ BEModernFilterPickerViewDelegate>
         }
         [self updateComponent];
         
-        _textSlider.hidden = (item.type == PLSMakeUpTypeHair || item.type == PLSMakeUpComponentTypeBody || item.relatedModel == nil);
+        _textSlider.hidden = (item.type == PLSMakeUpTypeHair || item.relatedModel == nil);
         _textSlider.progress = ((PLSMakeUpComponentModel *)item.relatedModel).intensity;
         
     } else {
@@ -357,6 +370,10 @@ BEModernFilterPickerViewDelegate>
     return cell;
 }
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(UIScreen.mainScreen.bounds.size.width, 135);
+}
+
 #pragma mark - BEEffectSwitchTabViewDelegate
 - (void)switchTabDidSelectedAtIndex:(NSInteger)index {
     [self.contentCollectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
@@ -410,15 +427,15 @@ BEModernFilterPickerViewDelegate>
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         flowLayout.minimumLineSpacing = 0;
         flowLayout.minimumInteritemSpacing = 0;
-        flowLayout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 5);
+//        flowLayout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 5);
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _contentCollectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
         _contentCollectionView.backgroundColor = [UIColor clearColor];
-        [_contentCollectionView registerClass:[BEEffectContentCollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([BEEffectContentCollectionViewCell class])];
         _contentCollectionView.showsHorizontalScrollIndicator = NO;
         _contentCollectionView.showsVerticalScrollIndicator = NO;
         _contentCollectionView.pagingEnabled = YES;
         _contentCollectionView.dataSource = self;
+        _contentCollectionView.delegate = self;
     }
     return _contentCollectionView;
 }

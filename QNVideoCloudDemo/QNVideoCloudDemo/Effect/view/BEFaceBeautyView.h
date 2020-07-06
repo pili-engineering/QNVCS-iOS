@@ -21,7 +21,7 @@
 @property (nonatomic, assign) PLSMakeUpType type;
 @property (nonatomic, strong) NSArray<BEButtonItemModel *> *items;
 
-- (void)setType:(PLSMakeUpType)type data:(BEButtonItemModel *)data;
+- (void)setType:(PLSMakeUpComponentType)type data:(BEButtonItemModel *)data;
 
 @property (nonatomic, weak) id<BEFaceBeautyViewDelegate> delegate;
 

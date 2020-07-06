@@ -3,11 +3,12 @@
 #import <UIKit/UIKit.h>
 #import <PLSEffect/PLSEffect.h>
 
+#import "PLSTBaseListView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface BEModernEffectPickerView : UIView
+@interface BEModernEffectPickerView : PLSTBaseListView
 
 @property (nonatomic, weak) PLSEffectManager *effectManager;
 @property (nonatomic, weak) PLSEffectDataManager *dataManager;
